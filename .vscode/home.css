@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(water.jpg);
+    background-size: cover;
+    background-position: center;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.welcome{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.t0{
+    color: #000000;
+    font-size: 5em;
+    top:50px;
+    align-items:center;
+    position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(242, 204, 15, 0.5));
+    user-select: none;
+    font-family: 'Time New Roman';
+
+}
+.t1{
+    color: #00000046;
+    font-size: 3em;
+    top: 5cm;
+    
+    align-items: center;
+    position: relative;
+    user-select: none;
+    font-family: 'Time New Roman';
+
+}
